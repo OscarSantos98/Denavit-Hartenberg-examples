@@ -39,6 +39,7 @@ ymin=-22
 ymax=2
 zmin=-2
 zmax=2
+# end of [1]
 
 # # 2
 # data = [
@@ -65,6 +66,7 @@ zmax=2
 # ymax = 5
 # zmin = -2
 # zmax = 24
+# # end of [2]
 
 # # 3
 # data = [
@@ -91,8 +93,9 @@ zmax=2
 # ymax = 11
 # zmin = -1
 # zmax = 19
+# # end of [3]
 
-print(tabulate(data, headers=['Eslabón', chr(
+print(tabulate(data, headers=['i', chr(
     945) + 'i-1', 'ai-1', 'di', chr(952) + 'i']))
 print()
 
